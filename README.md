@@ -51,7 +51,7 @@ Ideal for:
 ✅ Paragraphs and horizontal lines  
 ✅ Links with `target` attribute  
 ✅ Images and image links  
-✅ Text styling tags: `<b>`, `<i>`, `<mark>`, `<del>`, `<ins>`, `<sub>`, `<sup>`, `<small>`, `<strong>`, `<u>`  
+✅ Text styling tags:`<b>`,`<i>`,`<mark>`,`<del>`,`<ins>`,`<sub>`,`<sup>`,`<small>`,`<strong>`,`<u>`
 ✅ Containers like `<div>`  
 ✅ Font resizing with `<BIG>` and `<small>`  
 ✅ Code display with `<pre>`  
