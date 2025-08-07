@@ -3,11 +3,14 @@
 ````markdown
 # 🚀 Interactive HTML Tags & Elements Tutorial
 
-Welcome to the **HTML Tags Tutorial** – a comprehensive, beginner-friendly project that showcases all major HTML tags, attributes, elements, and form controls in one clean, readable, and interactive page.
+Welcome to the 
+**HTML Tags Tutorial** – 
+A comprehensive, beginner-friendly project that showcases all major HTML tags, attributes, elements, and form controls in one clean, readable, and interactive page.
 
 📚 **Built by:** Sahiko  
 🎨 **Styled with:** Pure CSS (responsive design)  
-🌐 **Live Demo:** [Click here to view online](https://your-username.github.io/html-tags-tutorial/) *(Update after GitHub Pages is enabled)*
+🌐 **Live Demo:** [Click here to view online]
+(https://your-username.github.io/html-tags-tutorial/) *(Update after GitHub Pages is enabled)*
 
 ---
 
