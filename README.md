@@ -60,9 +60,9 @@ Ideal for:
 ### 📎 **Links & Anchors**
 ```html
 <a href="https://www.google.com" target="_main">go to google</a>
+Opens Google in a new tab using the `target="_main"` attribute.
 ````
 
-Opens Google in a new tab using the `target="_main"` attribute.
 
 ---
 
