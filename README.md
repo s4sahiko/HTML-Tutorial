@@ -13,7 +13,7 @@ readable, and interactive page.
 📚 **Built by:** Sahiko  
 🎨 **Styled with:** Pure CSS (responsive design)  
 🌐 **Live Demo:** [Click here to view online]
-(https://your-username.github.io/html-tags-tutorial/) *(Update after GitHub Pages is enabled)*
+(https://your-username.github.io/html-tags-tutorial/)
 
 ---
 
