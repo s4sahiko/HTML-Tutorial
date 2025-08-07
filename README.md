@@ -5,7 +5,10 @@
 
 Welcome to the 
 **HTML Tags Tutorial** – 
-A comprehensive, beginner-friendly project that showcases all major HTML tags, attributes, elements, and form controls in one clean, readable, and interactive page.
+A comprehensive, beginner-friendly project that
+showcases all major HTML tags, attributes, 
+elements, and form controls in one clean, 
+readable, and interactive page.
 
 📚 **Built by:** Sahiko  
 🎨 **Styled with:** Pure CSS (responsive design)  
