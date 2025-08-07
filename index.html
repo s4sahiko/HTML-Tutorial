@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en"> <!--root of the html page-->
+
+<head> <!--contains page meta data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full HTML tutorial covering all commonly used HTML tags and elements.">
+    <meta name="keywords" content="HTML, tutorial, web development, HTML tags, HTML elements, HTML attributes">
+    <meta name="author" content="Sahiko">
+    <link rel="stylesheet" href="style.css">
+    <title>full html tutorial</title> <!--title of the page-->
+</head> <!--closing tag of head-->
+
+<body> <!--main body of the page-->
+    <h1>HTML Tutorial</h1> <!--heading tag "it will goes up to 6, e.g: <h2>...<h6>."-->
+    <hr> <!--hr tag is used for adding a horizontal line-->
+    <p>Here we will see all the commonly used html tag and other things that will help you to structure a website in a
+        effective manner</p> <!--paragraph tag-->
+    <hr>
+    <h2>HTML TAG/ELEMENTS/ATTIBUTES</h2> <!--heading tag-->
+    <hr>
+    <h3>Adding Website To Page</h3>
+    <div> <!--Block element(used for storing other tags,helpfull while using css)-->
+        <a href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/div">see more about div element</a>
+        <!--anchor tag (used for adding websites to the page),Here href is an attribute-->
+        <br> <!--br tag is used to add a new line-->
+        <a href="https://www.google.com" target="_main">go to google</a>
+        <!--TARGET attribute will open the web in new page-->
+    </div>
+    <hr>
+    <div>
+        <!--THIS IS USED FOR ADDING COMMENTS IN HTML-->
+        <h3>Adding Image In HTML</h3>
+        <img src="https://t3.ftcdn.net/jpg/06/01/50/96/240_F_601509638_jDwIDvlnryPRhXPsBeW1nXv90pdlbykC.jpg"
+            alt="image">
+        <!--this will add a image to the page(alt attribute value will be visibe if the pic will not laod properly)-->
+
+        <hr>
+        <h3>Adding Image That Redirects To Any Website</h3>
+        <a href="https://www.google.com">
+            <img src="https://t3.ftcdn.net/jpg/06/01/50/96/240_F_601509638_jDwIDvlnryPRhXPsBeW1nXv90pdlbykC.jpg"
+                alt="image">
+        </a>
+        <!--this will add a image to the page and it will redirect to google when clicked-->
+    </div>
+    <hr>
+    <div>
+        <h3>Writting Styles</h3>
+        <b>Hello Sahiko</b> <!--b tag is used to write in bold-->
+        <br>
+        <i>Hello Sahiko</i> <!--i tag is used to write in italic-->
+        <br>
+        <mark>Hello Sahiko</mark> <!--mark tag is used to highlight the text-->
+        <br>
+        <del>Hello Sahiko</del> <!--del tag is used to strikethrough the text-->
+        <br>
+        <ins>Hello Sahiko</ins> <!--ins tag is used to underline the text-->
+        <br>
+        <p>Hello Sahiko<sub>subscript</sub> </p> <!--sub tag is used to write the text in subscript-->
+        <br>
+        <p>Hello Sahiko <sup>superscript</sup> </p> <!--sup tag is used to write the text in superscript-->
+        <br>
+        <small>Hello Sahiko</small> <!--small tag is used to write the text in small size-->
+        <br>
+        <strong>Hello Sahiko</strong> <!--strong tag is used to write the text in strong emphasis-->
+        <br>
+        <u>Hello Sahiko</u> <!--u tag is used to underline the text-->
+    </div>
+    <hr>
+    <div> <!--div tag is used to group elements together-->
+        <h3>Fonts</h3>
+        <BIG>Hello Sahiko</BIG> <!--BIG tag is used to write the text in big size-->
+        <br>
+        <small>Hello Sahiko</small> <!--small tag is used to write the text in  small size-->
+    </div>
+    <hr>
+    <div>
+        <h3>To Display Text Exactly How They Are</h3>
+        <pre> <!--pre tag is used to display the text exactly how they are written in the code-->
+       #include
+       int main() {
+       printf("Hello World!");
+         return 0;
+    }
+    </pre>
+        <hr>
+    </div>
+    <h2>LISTS</h2>
+    <div>
+        <h3>Unordered List</h3>
+        <ul> <!--ul tag is used to create an unordered list-->
+            <li>HTML</li> <!--li tag is used to create a list item-->
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <hr>
+        <h3>Ordered List</h3>
+        <ol> <!--ol tag is used to create an ordered list-->
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <hr>
+    </div>
+    <h2>Tables</h2>
+    <div>
+        <h3>Creating Tables</h3>
+        <table border="1">
+            <!--table tag is used to create a table, border attribute is used to add border to the table-->
+            <tr> <!--tr tag is used to create a table row-->
+                <th>First Name</th> <!--th tag is used to create a table header-->
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr> <!--another table row-->
+                <td>John</td> <!--td tag is used to create a table data cell-->
+                <td>Doe</td>
+                <td>25</td>
+            </tr>
+            <tr> <!--another table row-->
+                <td>Jane</td>
+                <td>Doe</td>
+                <td>30</td>
+            </tr>
+            <tr> <!--another table row-->
+                <td>Sam</td>
+                <td>Smith</td>
+                <td>22</td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Table With Caption</h3>
+        <table border="1">
+            <caption>Student Information</caption> <!--caption tag is used to add a caption to the table-->
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Doe</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Sam</td>
+                <td>Smith</td>
+                <td>22</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <h2>Forms</h2>
+    <div>
+        <h3>Creating Forms</h3>
+        <form action="https://www.example.com" method="post">
+            <!--form tag is used to create a form, action attribute is used to specify the URL where the form data will be sent, method attribute is used to specify the HTTP method to be used when sending form data-->
+            <label for="name">Name:</label> <!--label tag is used to create a label for an input element-->
+            <!--input type:text-->
+            <input type="text" id="name" name="name" required>
+            <!--input tag is used to create an input field, type attribute is used to specify the type of input, required attribute is used to make the input field mandatory-->
+            <br>
+            <label for="email">Email:</label>
+            <!--input type email-->
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="sectionid">
+                <input type="radio" id="sectionid" name="section" value="A" required>Section A
+                <input type="radio" id="sectionid" name="section" value="B">Section B
+                <input type="radio" id="sectionid" name="section" value="C">Section C
+            </label>
+            <br>
+            <label for="checkbox">Subscribe to newsletter:</label>
+            <!--input type checkbox-->
+            <input type="checkbox" id="checkbox" name="subscribe" value="yes">yes
+            <input type="checkbox" id="checkbox2" name="subscribe2" value="no">No
+            <br>
+            <label for="country">Country:</label>
+            <!--input type select-->
+            <select id="country" name="country">
+                <option value="usa">USA</option> <!--option tag is used to create an option in a select dropdown-->
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br>
+            <label for="message">Message:</label>
+            <!--input type textarea-->
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+            <!--textarea tag is used to create a multi-line text input field-->
+            <br>
+            <label for="file">Upload File:</label>
+            <!--input type file-->
+            <input type="file" id="file" name="file" accept=".jpg, .png, .pdf">
+            <!--accept attribute is used to specify the types of files that can be uploaded-->
+            <br>
+            <label for="date">Select Date:</label>
+            <!--input type date-->
+            <input type="date" id="date" name="date">
+            <br>
+            <label for="time">Select Time:</label>
+            <!--input type time-->
+            <input type="time" id="time" name="time">
+            <br>
+        </form>
+        <hr>
+        <h3>Creating Radio Buttons</h3>
+        <form>
+            <label for="option1">
+                <input type="radio" id="option1" name="options" value="option1">Option 1
+            </label>
+            <br>
+            <label for="option2">
+                <input type="radio" id="option2" name="options" value="option2">Option 2
+            </label>
+            <br>
+            <label for="option3">
+                <input type="radio" id="option3" name="options" value="option3">Option 3
+            </label>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <hr>
+        <h3>Few Additional Tags</h3>
+        <h4>Colspan </h4> <!--colspan attribute is used to merge two or more columns in a table-->
+        <table border="1">
+            <tr>
+                <th colspan="2">Contact Information</th>
+                <!--colspan attribute is used to merge two or more columns in a table-->
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>Phone</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>123 Main St, City, Country</td>
+            </tr>
+        </table>
+        <hr>
+        <h4>Rowspan</h4> <!--rowspan attribute is used to merge two or more rows in a table-->
+        <table border="1">
+            <tr>
+                <th rowspan="2">Name</th> <!--rowspan attribute is used to merge two or more rows in a table-->
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>28</td>
+            </tr>
+        </table>
+        <hr>
+</body><!--body closing tag-->
+
+</html>

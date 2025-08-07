@@ -1,0 +1,168 @@
+
+/* Reset and global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background and layout */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #eef2f3, #d6eaf8);
+    color: #2c3e50;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* Centered container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Centered headings with spacing */
+h1, h2, h3, h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Different heading colors */
+h1 {
+    color: #2e86de;
+    font-size: 36px;
+    border-bottom: 3px solid #2e86de;
+    padding-bottom: 10px;
+}
+h2 {
+    color: #10ac84;
+    font-size: 28px;
+    border-bottom: 2px solid #10ac84;
+    padding-bottom: 8px;
+}
+h3 {
+    color: #f39c12;
+    font-size: 22px;
+}
+h4 {
+    color: #e74c3c;
+    font-size: 18px;
+}
+
+/* Paragraph and text */
+p, li, label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Code and preformatted text */
+pre, code {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+th {
+    background-color: #dff9fb;
+    color: #130f40;
+}
+th, td {
+    border: 1px solid #bdc3c7;
+    padding: 12px;
+    text-align: left;
+}
+caption {
+    caption-side: top;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+/* Forms */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #fefefe;
+}
+
+/* Radio and checkbox spacing */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Labels */
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #2e86de;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #1b4f72;
+}
+
+/* HR line */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    input, select, textarea {
+        width: 100%;
+    }
+    table {
+        font-size: 14px;
+    }
+}
