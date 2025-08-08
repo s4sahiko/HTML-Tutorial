@@ -12,26 +12,26 @@ readable, and interactive page.
 
 📚 **Built by:** Sahiko  
 🎨 **Styled with:** Pure CSS (responsive design)  
-🌐 **Live Demo:** [Click here to view online]
-(https://your-username.github.io/html-tags-tutorial/)
-
 ---
 
 ## 📋 Table of Contents
 
-- [📘 About](#-about)
-- [🧠 What You'll Learn](#-what-youll-learn)
-- [🔍 Tag Categories](#-tag-categories)
-- [🧪 Forms in Action](#-forms-in-action)
-- [📊 Tables & Lists](#-tables--lists)
-- [💡 Styling & Layout](#-styling--layout)
-- [📄 License](#-license)
+- [📘 About]
+- [🧠 What You'll Learn]
+- [🔍 Tag Categories]
+- [🧪 Forms in Action]
+- [📊 Tables & Lists]
+- [💡 Styling & Layout]
+- [📄 License]
 
 ---
 
 ## 📘 About
 
-This project is a **fully commented HTML page** that introduces:
+This project is a 
+**fully commented HTML page** 
+that introduces:
+
 - Core HTML syntax
 - Semantics of elements
 - Attribute usage
@@ -51,12 +51,12 @@ Ideal for:
 ✅ Paragraphs and horizontal lines  
 ✅ Links with `target` attribute  
 ✅ Images and image links  
-✅ Text styling tags:`<b>`,`<i>`,`<mark>`,`<del>`,`<ins>`,`<sub>`,`<sup>`,`<small>`,`<strong>`,`<u>`
+✅ Text styling tags:`<b>`,`<i>`,`<mark>` etc.
 ✅ Containers like `<div>`  
 ✅ Font resizing with `<BIG>` and `<small>`  
 ✅ Code display with `<pre>`  
 ✅ Lists: `<ul>`, `<ol>`, `<li>`  
-✅ Tables: `<table>`, `<tr>`, `<th>`, `<td>`, `colspan`, `rowspan`, `<caption>`  
+✅ Tables: `<table>`, `<tr>`, `<th>`, etc.
 ✅ Full form elements with validation and labels
 
 ---
@@ -64,6 +64,7 @@ Ideal for:
 ## 🔍 Tag Categories
 
 ### 📎 **Links & Anchors**
+
 ```html
 <a href="https://www.google.com" target="_main">go to google</a>
 Opens Google in a new tab using the `target="_main"` attribute.
@@ -121,7 +122,10 @@ And image that redirects to Google:
 </form>
 ```
 
-➡️ Includes `required`, `accept`, `name`, `value`, and `id/for` linking with `<label>` for accessibility.
+➡️ Includes 
+`required`, `accept`, `name`, 
+`value`, and `id/for` linking with `<label>` 
+for accessibility.
 
 ---
 
@@ -145,7 +149,7 @@ And image that redirects to Google:
 </ol>
 ```
 
-### 📅 Tables with `rowspan`, `colspan`, and `<caption>`
+### 📅 Tables with`rowspan`,`colspan`,and`<caption>`
 
 ```html
 <table>
@@ -162,18 +166,18 @@ And image that redirects to Google:
 The `style.css` uses:
 
 * Responsive design
-* Clean fonts (`Segoe UI`)
+* Clean fonts 
 * Gradient backgrounds
 * Styled forms, buttons, and tables
 * Media queries for mobile screens
 
-💾 You can explore or modify it freely to learn more about CSS styling.
 
 ---
 
 ## 📄 License
 
 This project is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International License (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/).
+
 You may copy and share this project freely, **but modification is not allowed**. Always credit the author **Sahiko**.
 
 ---
