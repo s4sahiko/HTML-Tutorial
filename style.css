@@ -1,59 +1,73 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&family=Roboto:wght@400;500&display=swap');
 
-/* Reset and global */
+/* Reset & Base */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Page background and layout */
+/* Soft gradient animated background */
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to right, #eef2f3, #d6eaf8);
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ffffff, #f6f8fb, #eaeef3);
+    background-size: 200% 200%;
+    animation: subtleMove 18s ease infinite;
     color: #2c3e50;
     padding: 30px;
     line-height: 1.6;
 }
 
-/* Centered container */
+@keyframes subtleMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Main container */
 .container {
     max-width: 1000px;
     margin: auto;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.98);
+    padding: 40px;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
 }
 
-/* Centered headings with spacing */
+/* Headings with gradient + animation */
 h1, h2, h3, h4 {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
     margin-bottom: 20px;
+    animation: fadeInUp 0.8s ease both;
 }
 
-/* Different heading colors */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 h1 {
-    color: #2e86de;
-    font-size: 36px;
-    border-bottom: 3px solid #2e86de;
-    padding-bottom: 10px;
-}
-h2 {
-    color: #10ac84;
-    font-size: 28px;
-    border-bottom: 2px solid #10ac84;
-    padding-bottom: 8px;
-}
-h3 {
-    color: #f39c12;
-    font-size: 22px;
-}
-h4 {
-    color: #e74c3c;
-    font-size: 18px;
+    font-size: 48px;
+    background: linear-gradient(90deg, #ff4b2b, #ff416c, #ff4b2b);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: headingGradient 6s linear infinite, fadeInUp 0.8s ease both;
 }
 
-/* Paragraph and text */
+@keyframes headingGradient {
+    0% { background-position: 0% center; }
+    100% { background-position: 200% center; }
+}
+
+h2 { font-size: 32px; color: #2a9d8f; }
+h3 { font-size: 26px; color: #f4a261; }
+h4 { font-size: 20px; color: #e63946; }
+
+/* Text */
 p, li, label {
     font-size: 16px;
     margin-bottom: 10px;
@@ -61,18 +75,20 @@ p, li, label {
 
 /* Links */
 a {
-    color: #007bff;
+    color: #0077b6;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 a:hover {
+    color: #023e8a;
     text-decoration: underline;
 }
 
-/* Code and preformatted text */
+/* Code Blocks */
 pre, code {
     background-color: #f4f4f4;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 12px;
+    border-radius: 6px;
     font-family: 'Courier New', monospace;
     font-size: 14px;
     white-space: pre-wrap;
@@ -84,25 +100,27 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background-color: #ffffff;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
 }
 th {
-    background-color: #dff9fb;
-    color: #130f40;
+    background-color: #1d3557;
+    color: white;
+    font-weight: 500;
 }
 th, td {
-    border: 1px solid #bdc3c7;
+    border: 1px solid #ddd;
     padding: 12px;
     text-align: left;
 }
 caption {
-    caption-side: top;
-    text-align: left;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
-/* Forms */
+/* Form Fields */
 input[type="text"],
 input[type="email"],
 input[type="date"],
@@ -111,58 +129,59 @@ input[type="file"],
 select,
 textarea {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-top: 5px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
     font-size: 15px;
-    background-color: #fefefe;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Radio and checkbox spacing */
+input:focus, select:focus, textarea:focus {
+    border-color: #2a9d8f;
+    outline: none;
+    box-shadow: 0 0 6px rgba(42, 157, 143, 0.4);
+}
+
+/* Radio & Checkbox */
 input[type="radio"],
 input[type="checkbox"] {
-    margin-right: 10px;
+    accent-color: #2a9d8f;
+    transform: scale(1.15);
+    margin-right: 8px;
 }
 
-/* Labels */
-form label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-/* Submit button */
+/* Submit Button */
 input[type="submit"] {
-    background-color: #2e86de;
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
     color: white;
-    padding: 10px 20px;
+    padding: 14px 28px;
     border: none;
-    border-radius: 6px;
+    border-radius: 30px;
     font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.3s ease;
 }
 input[type="submit"]:hover {
-    background-color: #1b4f72;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(255, 65, 108, 0.3);
 }
 
-/* HR line */
+/* Horizontal Rule */
 hr {
     border: none;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ddd;
     margin: 30px 0;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
     .container {
-        padding: 20px;
+        padding: 25px;
     }
-    input, select, textarea {
-        width: 100%;
-    }
-    table {
-        font-size: 14px;
-    }
+    h1 { font-size: 36px; }
+    table { font-size: 14px; }
 }
